@@ -10,10 +10,10 @@
 #define TFT_GREY 0x5AEB
 TFT_eSPI tft;
 
-// const char *ssid = "OP";
-// const char *password = "261020!)@)";
-const char *ssid = "540";     //填入SSID
-const char *password = "540nicai"; //填入Wifi密码
+const char *ssid = "OP";
+const char *password = "261020!)@)";
+// const char *ssid = "540";     //填入SSID
+// const char *password = "540nicai"; //填入Wifi密码
 String Citycode = "XXXXXXXXXXXXXX";      //查询所在区域的城市编码填入
                                          //https://github.com/baichengzhou/weather.api/blob/master/src/main/resources/citycode-2019-08-23.json
 int forecastCon = 0;
